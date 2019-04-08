@@ -1,0 +1,97 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../ImagesCodeInstitute/whiskey-glass.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* block deviders */
+
+.block-devider {
+    width: 7em;
+    height: .2em;
+    background-color: #b15200;
+    border-radius: 2px; 
+}
+
+.block-devider--orange {
+    background-color: #b15200;
+}
+
+.block-devider--short {
+    width: 3.5em;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #7d7d7d;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d7d7d9;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--orange {
+    color: white;
+    background-color: #b15200;
+    border-color: #b15200;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    color: white;
+    background-color: #904300;
+    border-color: #904300;
+}
